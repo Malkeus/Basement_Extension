@@ -1,42 +1,41 @@
+Cataclysm: Dark Days Ahead JSON Web Linting Tool
+This is a tool to help modders and editors of the open source game Cataclysm: Dark Days Ahead write JSON in the game's expected format.
+
+Paste some JSON into the field below and click "Lint" to run an autoformatter against it.
+
+
 [
   {
-    "type" : "item_group",
-    "id" : "workout_food",
-    "items":[
-      ["protein_powder", 15],
-      ["sports_drink", 20],
-      ["water_clean", 90]
+    "type": "item_group",
+    "id": "workout_food",
+    "items": [ [ "protein_powder", 15 ], [ "sports_drink", 20 ], [ "water_clean", 90 ] ]
+  },
+  {
+    "type": "item_group",
+    "id": "workout_clothes",
+    "items": [
+      [ "sneakers", 80 ],
+      [ "socks", 70 ],
+      [ "stockings", 20 ],
+      [ "tshirt", 80 ],
+      [ "longshirt", 70 ],
+      [ "tank_top", 50 ],
+      [ "sports_bra", 30 ],
+      [ "trunks", 50 ],
+      [ "bikini_top", 50 ],
+      [ "arm_warmers", 20 ],
+      [ "leg_warmers", 20 ],
+      [ "leggings", 20 ],
+      [ "halter_top", 30 ],
+      [ "linuxtshirt", 10 ],
+      [ "wristwatch", 20 ],
+      [ "camelbak", 5 ]
     ]
-  },{
-    "type" : "item_group",
-    "id" : "workout_clothes",
-    "items":[
-      ["sneakers", 80],
-      ["socks", 70],
-      ["stockings", 20],
-      ["tshirt", 80],
-      ["longshirt", 70],
-      ["tank_top", 50],
-      ["sports_bra", 30],
-      ["trunks", 50],
-      ["bikini_top", 50],
-      ["arm_warmers", 20],
-      ["leg_warmers", 20],
-      ["leggings", 20],
-      ["halter_top", 30],
-      ["linuxtshirt", 10],
-      ["wristwatch", 20],
-      ["camelbak", 5]
-    ]
-  },  {
-    "type" : "item_group",
-    "id" : "workout_misc",
-    "items":[
-      ["towel", 60],
-      ["cell_phone", 20],
-      ["rollmat", 40],
-      ["heatpack", 60]
-    ]
+  },
+  {
+    "type": "item_group",
+    "id": "workout_misc",
+    "items": [ [ "towel", 60 ], [ "cell_phone", 20 ], [ "rollmat", 40 ], [ "heatpack", 60 ] ]
   },
   {
     "type": "mapgen",
@@ -127,9 +126,7 @@
         "T": "f_table",
         "W": "f_treadmill"
       },
-      "toilets": {
-        "t": {}
-      },
+      "toilets": { "t": {  } },
       "place_loot": [
         { "item": "pool_ball", "x": [ 5, 6 ], "y": [ 6, 8 ], "chance": 80, "repeat": [ 1, 10 ] },
         { "item": "pool_cue", "x": 5, "y": 4, "chance": 40, "repeat": [ 1, 6 ] },
@@ -149,9 +146,8 @@
         { "group": "workout_food", "x": 4, "y": 15, "chance": 80, "repeat": [ 1, 2 ] },
         { "group": "workout_misc", "x": 4, "y": 15, "chance": 80, "repeat": [ 1, 2 ] }
       ],
-      "place_monsters": [
-        { "monster": "GROUP_ZOMBIE", "x": [ 4, 19 ], "y": [ 4, 19 ], "chance": 2 }
-      ]
+      "place_monsters": [ { "monster": "GROUP_ZOMBIE", "x": [ 4, 19 ], "y": [ 4, 19 ], "chance": 2 } ]
     }
   }
 ]
+

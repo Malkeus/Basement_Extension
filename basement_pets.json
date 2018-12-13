@@ -1,74 +1,83 @@
+Cataclysm: Dark Days Ahead JSON Web Linting Tool
+This is a tool to help modders and editors of the open source game Cataclysm: Dark Days Ahead write JSON in the game's expected format.
+
+Paste some JSON into the field below and click "Lint" to run an autoformatter against it.
+
+
 [
   {
-    "type" : "item_group",
-    "id" : "pet_supplies",
-    "items":[
-      ["fish_bowl", 5],
-      ["magnifying_glass", 10],
-      ["rock", 40],
-      ["stick", 40],
-      ["pine_bough", 20],
-      ["one_year_old_newspaper", 40],
-      ["months_old_newspaper", 40],
-      ["weeks_old_newspaper", 40],
-      ["newest_newspaper", 40],
-      ["survnote", 1],
-      ["mag_survival", 40],
-      ["mag_traps", 40],
-      ["trappers_companion", 20],
-      ["textbook_traps", 10],
-      ["dog_whistle", 10],
-      ["pet_carrier", 10],
-      ["rag", 80],
-      ["funnel", 40],
-      ["jar_glass", 80],
-      ["jar_3l_glass", 60],
-      ["tongs", 40],
-      ["thermometer", 10],
-      ["duct_tape", 60],
-      ["bucket", 5],
-      ["hose", 40],
-      ["wire", 80]
+    "type": "item_group",
+    "id": "pet_supplies",
+    "items": [
+      [ "fish_bowl", 5 ],
+      [ "magnifying_glass", 10 ],
+      [ "rock", 40 ],
+      [ "stick", 40 ],
+      [ "pine_bough", 20 ],
+      [ "one_year_old_newspaper", 40 ],
+      [ "months_old_newspaper", 40 ],
+      [ "weeks_old_newspaper", 40 ],
+      [ "newest_newspaper", 40 ],
+      [ "survnote", 1 ],
+      [ "mag_survival", 40 ],
+      [ "mag_traps", 40 ],
+      [ "trappers_companion", 20 ],
+      [ "textbook_traps", 10 ],
+      [ "dog_whistle", 10 ],
+      [ "pet_carrier", 10 ],
+      [ "rag", 80 ],
+      [ "funnel", 40 ],
+      [ "jar_glass", 80 ],
+      [ "jar_3l_glass", 60 ],
+      [ "tongs", 40 ],
+      [ "thermometer", 10 ],
+      [ "duct_tape", 60 ],
+      [ "bucket", 5 ],
+      [ "hose", 40 ],
+      [ "wire", 80 ]
     ]
-  },{
-    "type" : "item_group",
-    "id" : "pet_food",
-    "items":[
-      ["protein_powder", 40],
-      ["acorns", 40],
-      ["hickory_nut", 40],
-      ["water_clean", 90],
-      ["dogfood", 40],
-      ["catfood", 40],
-      ["fried_seeds", 40],
-      ["spoon", 20],
-      ["ceramic_bowl", 40],
-      ["cornmeal", 40],
-      ["powder_eggs", 40],
-      ["granola", 10],
-      ["dry_meat", 20],
-      ["dry_fish", 20],
-      ["dry_veggy", 20],
-      ["dry_fruit", 20],
-      ["salt", 40],
-      ["irradiated_cabbage", 10],
-      ["irradiated_lettuce", 10],
-      ["irradiated_carrot", 10],
-      ["jerky", 20],
-      ["oatmeal", 40]
+  },
+  {
+    "type": "item_group",
+    "id": "pet_food",
+    "items": [
+      [ "protein_powder", 40 ],
+      [ "acorns", 40 ],
+      [ "hickory_nut", 40 ],
+      [ "water_clean", 90 ],
+      [ "dogfood", 40 ],
+      [ "catfood", 40 ],
+      [ "fried_seeds", 40 ],
+      [ "spoon", 20 ],
+      [ "ceramic_bowl", 40 ],
+      [ "cornmeal", 40 ],
+      [ "powder_eggs", 40 ],
+      [ "granola", 10 ],
+      [ "dry_meat", 20 ],
+      [ "dry_fish", 20 ],
+      [ "dry_veggy", 20 ],
+      [ "dry_fruit", 20 ],
+      [ "salt", 40 ],
+      [ "irradiated_cabbage", 10 ],
+      [ "irradiated_lettuce", 10 ],
+      [ "irradiated_carrot", 10 ],
+      [ "jerky", 20 ],
+      [ "oatmeal", 40 ]
     ]
-  },{
-    "type" : "item_group",
-    "id" : "pet_medicine",
-    "items":[
-      ["vitamins", 80],
-      ["disinfectant", 40],
-      ["antibiotics", 20],
-      ["antifungal", 10],
-      ["antiparasitic", 10],
-      ["syringe", 20]
+  },
+  {
+    "type": "item_group",
+    "id": "pet_medicine",
+    "items": [
+      [ "vitamins", 80 ],
+      [ "disinfectant", 40 ],
+      [ "antibiotics", 20 ],
+      [ "antifungal", 10 ],
+      [ "antiparasitic", 10 ],
+      [ "syringe", 20 ]
     ]
-  },{
+  },
+  {
     "name": "GROUP_PETS_MAMMALS",
     "type": "monstergroup",
     "default": "mon_null",
@@ -82,7 +91,8 @@
       { "monster": "mon_squirrel_red", "freq": 40, "cost_multiplier": 1 },
       { "monster": "mon_raccoon", "freq": 40, "cost_multiplier": 1 }
     ]
-  },{
+  },
+  {
     "name": "GROUP_PETS_INSECTS",
     "type": "monstergroup",
     "default": "mon_null",
@@ -97,7 +107,8 @@
       { "monster": "mon_spider_widow_giant", "freq": 40, "cost_multiplier": 1 },
       { "monster": "mon_spider_wolf_giant", "freq": 40, "cost_multiplier": 1 }
     ]
-  },{
+  },
+  {
     "name": "GROUP_PETS_HERPS",
     "type": "monstergroup",
     "default": "mon_null",
@@ -107,15 +118,17 @@
       { "monster": "mon_rattlesnake_giant", "freq": 40, "cost_multiplier": 1 },
       { "monster": "mon_sewer_snake", "freq": 40, "cost_multiplier": 1 }
     ]
-  },{
+  },
+  {
     "name": "GROUP_PETS_FISH",
     "type": "monstergroup",
     "default": "mon_null",
     "monsters": [
-      { "monster" : "mon_mutant_carp", "freq" : 40, "cost_multiplier" : 1 },
-      { "monster" : "mon_mutant_salmon", "freq" : 40, "cost_multiplier" : 1 }
+      { "monster": "mon_mutant_carp", "freq": 40, "cost_multiplier": 1 },
+      { "monster": "mon_mutant_salmon", "freq": 40, "cost_multiplier": 1 }
     ]
-  },{
+  },
+  {
     "type": "mapgen",
     "method": "json",
     "om_terrain": [ "basement" ],
@@ -161,9 +174,7 @@
         "-": "t_wall",
         "|": "t_wall"
       },
-      "furniture": {
-        "R": "f_rack"
-      },
+      "furniture": { "R": "f_rack" },
       "place_loot": [
         { "group": "pet_supplies", "x": 9, "y": [ 10, 13 ], "chance": 80, "repeat": [ 1, 8 ] },
         { "group": "pet_food", "x": 14, "y": [ 10, 11 ], "chance": 80, "repeat": [ 1, 4 ] },
@@ -182,3 +193,4 @@
     }
   }
 ]
+
